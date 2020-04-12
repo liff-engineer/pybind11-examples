@@ -1,6 +1,6 @@
 # pybind11 examples
 
-根据[Mixing C++ & Python II: Pybind11](https://www.slideshare.net/corehard_by/mixing-c-python-ii-pybind11)实现.
+部分基础内容根据[Mixing C++ & Python II: Pybind11](https://www.slideshare.net/corehard_by/mixing-c-python-ii-pybind11)实现.
 
 ## 环境要求
 
@@ -22,3 +22,5 @@
 3. `pybind_functions`:展示关于函数的一些详细用法
 
 4. `embed`:展示如何将 Python 的解释器嵌入 C++应用程序
+
+5. `pypackage`:展示如何利用 CMake 与`setup.py`支持打包成`whl`格式.

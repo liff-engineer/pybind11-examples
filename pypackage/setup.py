@@ -96,13 +96,13 @@ class CMakeBuild(build_ext):
 sourcedir = os.path.dirname(os.path.realpath(__file__))
 
 setup(
-    name='pybind',
+    name='pypackage',
     version=project_version,
-    description='example:C++模块Python接口示例',
+    description='pypackage:C++模块Python接口打包示例',
     author='liff',
     author_email='liff.engineer@gmail.com',
     long_description='',
-    ext_modules=[CMakeExtension('example.impl', sourcedir=sourcedir)],
+    ext_modules=[CMakeExtension('pypackage.impl', sourcedir=sourcedir)],
     cmdclass=dict(build_ext=CMakeBuild),
     zip_safe=False,
 )

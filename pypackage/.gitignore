@@ -1,0 +1,4 @@
+\build
+\dist
+\pypackage.egg-info
+\.vscode
