@@ -20,3 +20,5 @@
 2. `task`:展示如何导出类定义
 
 3. `pybind_functions`:展示关于函数的一些详细用法
+
+4. `embed`:展示如何将 Python 的解释器嵌入 C++应用程序
