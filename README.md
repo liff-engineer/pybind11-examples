@@ -18,3 +18,5 @@
 1. `pybind_add`:演示如何创建一个 Python 接口模块,并展示函数导出时的函数指针以及 lambda 表达式两种方式.
 
 2. `task`:展示如何导出类定义
+
+3. `pybind_functions`:展示关于函数的一些详细用法
