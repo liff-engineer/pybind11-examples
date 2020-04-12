@@ -24,3 +24,9 @@
 4. `embed`:展示如何将 Python 的解释器嵌入 C++应用程序
 
 5. `pypackage`:展示如何利用 CMake 与`setup.py`支持打包成`whl`格式.
+
+## TODO
+
+- 多module之间依赖的处理
+- 修饰器模式如何在pybind11中使用
+- 类型提示辅助文件.pyi
