@@ -16,17 +16,13 @@
 ## 样例顺序
 
 1. `pybind_add`:演示如何创建一个 Python 接口模块,并展示函数导出时的函数指针以及 lambda 表达式两种方式.
-
 2. `task`:展示如何导出类定义
-
 3. `pybind_functions`:展示关于函数的一些详细用法
-
 4. `embed`:展示如何将 Python 的解释器嵌入 C++应用程序
-
 5. `pypackage`:展示如何利用 CMake 与`setup.py`支持打包成`whl`格式.
+6. `decorator`:展示了如何利用pybind11处理修饰器
 
 ## TODO
 
 - 多module之间依赖的处理
-- 修饰器模式如何在pybind11中使用
 - 类型提示辅助文件.pyi
