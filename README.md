@@ -21,8 +21,6 @@
 4. `embed`:展示如何将 Python 的解释器嵌入 C++应用程序
 5. `pypackage`:展示如何利用 CMake 与`setup.py`支持打包成`whl`格式.
 6. `decorator`:展示了如何利用pybind11处理修饰器
+7. `multimod`：展示了多module之间类型的处理
+8. `typehints`：展示了如何为pybind11实现的模块提供静态类型定义提示
 
-## TODO
-
-- 多module之间依赖的处理
-- 类型提示辅助文件.pyi
